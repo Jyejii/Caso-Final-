@@ -43,17 +43,42 @@
  ## Respuesta: b)Falso
 
 
- # Ejercicio 2: Explica las diferencias entre una tabla Hash y un árbol. ¿ Cuándo conviene utilizar cada una de estas estructuras?
+ # Ejercicio 2.2: Explica las diferencias entre una tabla Hash y un árbol. ¿ Cuándo conviene utilizar cada una de estas estructuras?
 
    Tanto la tabla hash como el árbol son estrucuras de almacenamiento y organizacion de datos. La tabla hash asigna una clave a cada valor,por lo que si necesitas acceder a un valor de forma rapida esta es la mejor opción. Por otro lado, el  árbol esta formado por nodos organizados de manera jerarquica, por lo que esta mas ordenada que la tanga hash.
    En cuanto a sus maneras de funcionar, la insercion de la tabla hash se basa en calcular la posición de la clave utilizando la funcion de dispersión y asignar el elemento en esa posición,en cuanto a la busqueda es lo mismo, se usa la función de dispersión para calcular la posición para encontrar los datos almacenados, por último para eliminar un dato o sustituir simplemente se busca la pósicion de la misma manera y se elimina o sustituye el dato.
    En cambio, el árbol es un poco mas complejo, este se basa en raíces y nodos,su inserción se basa en busacr la posición del nuevo elemento y colocarlo como un nuevo módulo(de forma jerárquica), en cuanto a su búsqueda se basa en recorrer el árbol de foema jeráequica desde las raíces hasta los módulos, por último para eliminar un dato en  un árbol se busca el nodo y se elimina, aunque esto es mucha mas importante que en la tabla hash ya que si eliminas un nodo en un árbol este eliminara todos los nodos que sucedan de el.
    En resumen, si necesitas buscar un dato de forma ràpida la tabla has es mas conveniente,aunque tiene mas riesgos de colisiones, y si necesitas tener los datos ordenados es mejor ópcion el árbol,pero este sera mas lento aunque mas seguro ya que no tiene riesgos de ccolisiones debido a que los datos estan ordenados.
 
- # Ejercicio 3: Diferencias entre oila y una cola.
+ # Ejercicio 2.3: Diferencias entre oila y una cola.
 
    Las principales diferencias entre la pila y la cosa es que la pila es una estructura de datos que sigue el principio LIFO (Last In First Out), es decir, el último elemento que entra es el primero en salir, en cambio la cola sigue el principio FIFO (First In First Out), es decir, el primer elemento que entra es el primero en salir.
    En cuanto a las operaciónes de cada una, la pila usa `push`y `pop`, push sirve para agregar un elemento y pop para eliminar y obtener el elemento en la cima de la pila(el último añadido), en cambio la cola usa `enqueue` y `dequeue`, la primera para añadir un elemento al final de la cola y la segunda para obtener y eliminar el primer elemento de la cola.
    Las pilas son mas útilizadas para el uso de algoritmos de recursion ya que sigue mejor el historial, en cambio la cola es mas útilizada parala implementación de algoritmos de ordenación y búsqueda ya que se gestionan las tares en un órden más eficiente.
    En cuanto a la complejidada computacional, las pilas usan 0(1) para sus operaciones push y pop y solo cambian el elemnto superior, las colas tambien usan 0(1) para sus operaciones enqueue y dequeue, aunque en este caso implica cambiar todos los elementos de la cola al manipular el primero.
    En resumen, las pilas son mas útiles si buscas manipilar los elementos mas recientes de forma mas veloz y la cola es mas eficiente si buscas manipular el elemnto mas antiguo.
+
+
+ # Ejercicio 2.4)     Explica el método de ordenación denominado inserción y describe las interaciones sobre el siguiente conjunto de datos:  50 20 84 13 22 16 89 85
+
+   Én metodo de ordenación por inserción se basa en seleccionar los numeros desordenados en una lista y colocarlos en la posición correcta en una lista ordenada, como si se tratase de ordenar una baraja de cartas.Recorre los datos de izquierda a derecha y en cada paso seleciona el número y lo compara con el anterior,si es menor se intercambian la pósicion y si es mayor se queda igual.
+   En el caso de  50 20 84 13 22 16 89 85.
+   Lo primero compara 50 con 20 que es el siguiente y al ser menor los cambia de posición quedando 20,50.
+   Siguiendo la misma lógica ahora compara el siguiente numero de la list `84`con el resto,este al ser mayor que los otros dos se queda en la misma pósicion, quedando 20,50,84.
+   El siguiente número es el 13, este al compararlo con el primer elemento `20`vemos que es menor,por lo que se cambia de posicion quedando 13,20,50,84.
+   El siguiente número es el 22, este se compara con el resto y vemos que es mayor que 20 y menor que 50, por lo que se cambia de posicion quedando 13,20,22,50,84.
+   El siguiente número es el 16, este se compara con el resto y vemos que es menor que 20 y mayor que 13, por lo que se cambia de posicion quedando 13,16,20,22,50,84.
+   El siguiente número es el 89, este se compara con el resto y vemos que es mayor que todos, por lo que se queda en la misma posición quedando 13,16,20,22,50,84,89.
+   El último número es el 85, este se compara con el resto y vemos que es menor que 89 y mayor que 84, por lo que se cambia de posición quedando 13,16,20,22,50,84,85,89.
+
+
+ #Ejercicio 2.5) Dado dos funciones y si numero de operacion A= 1024n y B=16n^3 Calcular a partir de que tamaño de entrada n A es mas eficientye que B:
+
+   A=1024n
+   B=16n^3
+
+   despejamos la desigualdad n: 1024n<16n^3-->1024<16n^2-->64<n^2-->8<n n=8
+   por lo que podemos ver n=8 es la igualdad entre las dos funciones, por lo que a partir de n=8 la función A es mas eficiente que la función B.
+
+ #Ejercicio
+

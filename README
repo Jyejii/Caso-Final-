@@ -26,4 +26,11 @@
 
  # Respuesta: b)Herencia
 
- # 4)
+ # 4)     El tiempo de acceso a un dato en una lista de tipo LinkedList es en el mejor de los casos de:
+
+     a)    O(n)
+
+     b)    O(1)
+
+  # Respuesta: b)O(1)
+

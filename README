@@ -83,3 +83,13 @@
  #Ejercicio 3. Que imprime este codigó
  (RESPUESTA EN los comentarios de Main.java(porque falla) y MainArreglo.java(como se arreglo))
 
+
+  #Ejercicio 4Calcular de forma recursiva la suma de los dígitos de un número siendo un ejemplo el número 102 ->
+              1 + 0 + 2 = 3. Recuerde que puede realizar los cambios de tipo que crea necesarios para facilitar la
+              resolución:
+              ¿ Qué tipo de recursividad se está empleando? ¿ Qué complejidad computacional
+              tiene el algoritmo?
+
+    Para calcular la recursividad del numero 102 se suma los digito del ultimo numero(2) al resto(1,0).Por lo que la suma de los digitos del numero 102 es 1+0+2=3.
+    La recursividad que se esta empleando es la recursividad de cola, ya que se realiza la operación de forma iterativa y se va acumulando el resultado en cada llamada.
+    Su complejidad computacional es de O(n) ya que se recorre cada digito del número.Ádemas la recursividad de cola siempre tiene una complejidad de O(n).

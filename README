@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  # CASO FINAL
 
  https://github.com/Jyejii/Caso-Final-.git
@@ -9,7 +9,5 @@
 
   b)    Debemos establecer la visibilidad más restrictiva (por ejemplo, privada) en los atributos de una clase. Así, cualquier software que utilice nuestro objeto, sólo accederá al estado de los objetos mediante los métodos que le hayamos permitido utilizar.
 
- # Respuesta :
-=======
-# CASO FINAL
->>>>>>> dacd88e4ba9db5003007d5eef13a9739ea594b23
+ # Respuesta : b)    Debemos establecer la visibilidad más restrictiva (por ejemplo, privada) en los atributos de una clase. Así, cualquier software que utilice nuestro objeto, sólo accederá al estado de los objetos mediante los métodos que le hayamos permitido utilizar.
+

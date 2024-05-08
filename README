@@ -45,4 +45,6 @@
 
  # Ejercicio 2: Explica las diferencias entre una tabla Hash y un árbol. ¿ Cuándo conviene utilizar cada una de estas estructuras?
 
-   Tanto la tabla hash como el árbol son estrucuras de almacenamiento y organizacion de datos. La tabla hash asigna una clave a cada valor,por lo que si necesitas acceder a un valor de forma rapida esta es la mejor opción. Por otro lado, el  árbol esta formado por nodos organizados de manera jerarquica, por lo que esta mas ordenada que la tanla hash.
+   Tanto la tabla hash como el árbol son estrucuras de almacenamiento y organizacion de datos. La tabla hash asigna una clave a cada valor,por lo que si necesitas acceder a un valor de forma rapida esta es la mejor opción. Por otro lado, el  árbol esta formado por nodos organizados de manera jerarquica, por lo que esta mas ordenada que la tanga hash.
+   En resumen, si necesitas buscar un dato de forma ràpida la tabla has es mas conveniente y si necesitas tener los datos ordenados es mejor ópcion el árbol
+

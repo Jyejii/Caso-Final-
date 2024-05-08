@@ -1,1 +1,11 @@
-# CASO FINAL
+ # CASO FINAL
+
+ https://github.com/Jyejii/Caso-Final-.git
+
+ # 1)     En relación al estado de un objeto, para preservar el principio de encapsulación:
+
+  a)    Los atributos de nuestra clase deben permanecer públicos, para permitir un acceso total a la información que almacenamos en los objetos. Sin embargo, aquellos métodos que realicen operaciones internas (y no deban ser utilizados), deben establecerse como privados.
+
+  b)    Debemos establecer la visibilidad más restrictiva (por ejemplo, privada) en los atributos de una clase. Así, cualquier software que utilice nuestro objeto, sólo accederá al estado de los objetos mediante los métodos que le hayamos permitido utilizar.
+
+ # Respuesta :

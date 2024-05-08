@@ -80,5 +80,6 @@
    despejamos la desigualdad n: 1024n<16n^3-->1024<16n^2-->64<n^2-->8<n n=8
    por lo que podemos ver n=8 es la igualdad entre las dos funciones, por lo que a partir de n=8 la función A es mas eficiente que la función B.
 
- #Ejercicio
+ #Ejercicio 3. Que imprime este codigó
+ (RESPUESTA EN los comentarios de Main.java(porque falla) y MainArreglo.java(como se arreglo))
 
